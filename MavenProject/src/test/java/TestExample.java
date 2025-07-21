@@ -8,7 +8,7 @@ class TestExample {
 	    public void testAppMessage()
 	    {
 	        Example example = new Example();
-	        assertEquals("Hello World!", example.getMessage());
+	        assertEquals("Hello World!Hello World!", example.getMessage());
 	        assertEquals("Hello World!", example.getMessage());
 	    }
 
